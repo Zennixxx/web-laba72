@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Динамічна таблиця персонажів</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Таблиця персонажів</h1>
+  <button id="refresh-button">Оновити таблицю</button>
+  <table id="characters-table" border="1">
+    <thead>
+    <tr>
+      <th><button id="sort-name">Сортувати за ім'ям</button></th>
+      <th>Фракція</th>
+      <th>Звання</th>
+      <th>Локація</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <button id="sort-affiliation">Сортувати за фракцією</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
